@@ -19,7 +19,7 @@ export default function InputComponent({ setTweets }) {
           isClosable: true,
         });
       } else {
-        const response = await fetch("https://twitter-clone-2-5xf2.onrender.com/user/tweets", {
+        const response = await fetch("http://localhost:4000//user/tweets", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
