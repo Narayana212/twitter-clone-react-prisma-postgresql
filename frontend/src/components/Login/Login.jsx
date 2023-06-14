@@ -9,7 +9,7 @@ export default function Login({history}) {
   const toast = useToast();
 
   const submitHandler = async () => {
-    const url = "https://twitter-clone-2-5xf2.onrender.com/login/";
+    const url = "http://localhost:3000/login/";
   
     const data = { username, password };
     setLoading(true);
