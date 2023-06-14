@@ -1,0 +1,26 @@
+.left-tab{
+    font-size: 1rem;
+}
+.logo{
+
+    cursor: pointer;
+}
+
+.tab-left-item{
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+}
+.name{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.username{
+    font-size: 0.6rem;
+    color: #563471;
+}
+.custom-textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
