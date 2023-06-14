@@ -11,7 +11,7 @@ function CenterSideBar() {
 
   const fetchTweets = async () => {
     try {
-      const response = await fetch("https://twitter-clone-2-5xf2.onrender.com/tweets", {
+      const response = await fetch("http://localhost:4000//tweets", {
         headers: {
           Authorization: `Bearer ${jwtToken}`,
         },
