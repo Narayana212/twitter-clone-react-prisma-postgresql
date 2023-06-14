@@ -9,7 +9,7 @@ function RightSideBar() {
   const [hoveredItem, setHoveredItem] = useState("");
 
   const filteredSearchResults = searchResults.filter(
-    (result) => result.username !== "lanja" && result.username !== "lanja1"
+    (result) => result.username !== "" && result.username !== ""
   );
 
   const searchRes = filteredSearchResults.slice(0, 4);
@@ -31,7 +31,7 @@ function RightSideBar() {
   const handleSearch = async () => {
     try {
       const response = await fetch(
-        "https://twitter-clone-2-5xf2.onrender.com/search",
+        "http://localhost:4000/search",
         {
           method: "POST",
           headers: {
