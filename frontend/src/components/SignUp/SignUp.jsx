@@ -19,7 +19,7 @@ import {
     const toast = useToast();
   
     const submitHandler= async()=>{
-      const url = "https://twitter-clone-2-5xf2.onrender.com/register/";
+      const url = "http://localhost:4000/register/";
       const data = { name,username, password,gender };
       Cookies.set("name",name)
       Cookies.set("username",name)
